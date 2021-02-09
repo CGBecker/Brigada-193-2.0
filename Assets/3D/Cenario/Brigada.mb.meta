@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: 3354074c4474e9445a5734c5faf83d21
+timeCreated: 1458060704
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Brigada:pCube45
+    100004: group
+    100006: pasted__group
+    100008: pasted__pasted__pPlane6
+    100010: pasted__pCube14
+    100012: pasted__pCube15
+    100014: pasted__pCube7
+    100016: pasted__pCube8
+    100018: pasted__pCylinder5
+    100020: pasted__pCylinder9
+    100022: pasted__polySurface1
+    100024: pasted__polySurface12
+    100026: pasted__polySurface13
+    100028: pasted__polySurface15
+    100030: pasted__polySurface15 1
+    100032: pasted__polySurface2
+    100034: pasted__pSphere5
+    100036: pasted__pSphere6
+    100038: pCube24
+    100040: polySurface53
+    100042: transform10
+    100044: transform11
+    100046: transform12
+    100048: transform13
+    100050: transform14
+    100052: transform3
+    100054: transform4
+    100056: transform5
+    100058: transform6
+    100060: transform7
+    100062: transform8
+    100064: transform9
+    100066: Truck_deformado2:Hidrante
+    400000: //RootNode
+    400002: Brigada:pCube45
+    400004: group
+    400006: pasted__group
+    400008: pasted__pasted__pPlane6
+    400010: pasted__pCube14
+    400012: pasted__pCube15
+    400014: pasted__pCube7
+    400016: pasted__pCube8
+    400018: pasted__pCylinder5
+    400020: pasted__pCylinder9
+    400022: pasted__polySurface1
+    400024: pasted__polySurface12
+    400026: pasted__polySurface13
+    400028: pasted__polySurface15
+    400030: pasted__polySurface15 1
+    400032: pasted__polySurface2
+    400034: pasted__pSphere5
+    400036: pasted__pSphere6
+    400038: pCube24
+    400040: polySurface53
+    400042: transform10
+    400044: transform11
+    400046: transform12
+    400048: transform13
+    400050: transform14
+    400052: transform3
+    400054: transform4
+    400056: transform5
+    400058: transform6
+    400060: transform7
+    400062: transform8
+    400064: transform9
+    400066: Truck_deformado2:Hidrante
+    2300000: Brigada:pCube45
+    2300002: pasted__polySurface15
+    2300004: pCube24
+    2300006: polySurface53
+    2300008: Truck_deformado2:Hidrante
+    3300000: Brigada:pCube45
+    3300002: pasted__polySurface15
+    3300004: pCube24
+    3300006: polySurface53
+    3300008: Truck_deformado2:Hidrante
+    4300000: Truck_deformado2:Hidrante
+    4300002: pCube24
+    4300004: Brigada:pCube45
+    4300006: polySurface53
+    4300008: pasted__polySurface15
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.6
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
