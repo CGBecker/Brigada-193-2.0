@@ -117,7 +117,7 @@ public class LevelActivator : MonoBehaviour {
     public GameObject Bloco15Star2;
     public GameObject Bloco15Star3;	  
 
-	void Start () {
+	void Awake () {
 
         SaveRanking.LoadGame();
 

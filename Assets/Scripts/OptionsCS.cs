@@ -46,10 +46,22 @@ public class OptionsCS : MonoBehaviour {
 
     }
 
-    void Update()
+   public void Mute()
     {
-
-       
+        if(global::SaveRanking.SomOn == 0)
+        {
+            AudioListener.volume = 0f;
+            global::SaveRanking.SomOn = 1;
+            SoundOn.SetActive(false);
+            SoundOff.SetActive(true);
+        }
+        else
+        {
+            AudioListener.volume = 1f;
+            global::SaveRanking.SomOn = 0;
+            SoundOn.SetActive(true);
+            SoundOff.SetActive(false);
+        }
     }
 
     public void GoBack() {
