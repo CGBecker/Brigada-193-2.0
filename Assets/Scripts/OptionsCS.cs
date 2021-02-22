@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class OptionsCS : MonoBehaviour {
 
 	public GameObject OptionsPanel;
 	public GameObject SoundOn;
 	public GameObject SoundOff;
+    public GameObject StartObj;
     
 
 	public bool isOn;
@@ -23,34 +25,56 @@ public class OptionsCS : MonoBehaviour {
 
     public void Options(){
 
-        Camera.SetBool("IsOpcoesOn", true);
+        // Camera.SetBool("IsOpcoesOn", true);
 
-        IsOn = true;
+        if (IsOn == false)
+        {
+            OptionsPanel.SetActive(true);
+            StartObj.layer = 2;
+            IsOn = true;
+           
+        }else
+        {
+            if (IsOn == true)
+            {
+                OptionsPanel.SetActive(false);
+                StartObj.layer = 0;
+                IsOn = false;
+            }
+        }
+
 
     }
 
     void Update()
     {
 
-        if (IsOn == true)
-        {
-            timer += Time.deltaTime;
-
-        }
-
-        if (timer >= 1.2F)
-        {
-            Back.SetActive(true);
-            IsOn = false;
-            timer = 0;
-
-        }
+       
     }
 
     public void GoBack() {
         Camera.SetBool("IsOpcoesOn", false);
 
         Back.SetActive(false);
+    }
+
+    public void Exit()
+    {
+        Application.Quit();
+    }
+
+    public void CreditsF() {
+
+        if (Credits.activeSelf == true)
+        {
+            Credits.SetActive(false);
+        }
+        else { 
+        if(Credits.activeSelf == false)
+            {
+                Credits.SetActive(true);
+            }
+        }
     }
 
 }

@@ -15,6 +15,7 @@ public class CreditScreenGUI : MonoBehaviour {
 	private List<float>                  labelWidth;
 	private List<float>                  labelHeights;
 	private Dictionary<string, string[]> creditDictionary;
+	private GUIStyle                     textStyle;
 
 
 	public void Start() {
@@ -26,6 +27,7 @@ public class CreditScreenGUI : MonoBehaviour {
 		for (int j = 0; j < creditsElements.Length; j++)
 			creditDictionary.Add(creditsElements [j].area, creditsElements [j].authors);
 
+		textStyle.fontSize = 24;
 		labelTexts = new List<string> ();
 		labelWidth = new List<float> ();
 		labelHeights = new List<float> ();
@@ -36,6 +38,7 @@ public class CreditScreenGUI : MonoBehaviour {
 			labelTexts.Add(System.String.Join("\n", pair.Value)); // Make Multiple Lines;
 			labelWidth.Add(BiggestString(pair.Value) * 30);
 			labelHeights.Add(pair.Value.Length * 50);
+			
 		}
 	}
 
@@ -65,8 +68,8 @@ public class CreditScreenGUI : MonoBehaviour {
 		float deltaY = 0;
 		for (int i = 0; i < labelTexts.Count; i++) {
 			if (i % 2 == 0) { // Area
-				GUI.Label(new Rect (halfWidth - labelWidth [i] * 0.5F, py + deltaY, labelWidth [i], labelHeights [i]), labelTexts [i], areaSkin.label);
-				deltaY += labelHeights [i] + 5;
+				GUI.Label(new Rect(halfWidth - labelWidth[i] * 0.5F, py + deltaY, labelWidth[i], labelHeights[i]), labelTexts[i], areaSkin.label);
+				deltaY += labelHeights[i] + 5;
 			} else {          // Author, maybe multiple lines
 				GUI.Label(new Rect (halfWidth - labelWidth [i] * 0.5F, py + deltaY, labelWidth [i], labelHeights [i]), labelTexts [i], authorSkin.label);
 				deltaY += labelHeights [i] + 50;
