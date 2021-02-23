@@ -54,6 +54,7 @@ public class OptionsCS : MonoBehaviour {
             global::SaveRanking.SomOn = 1;
             SoundOn.SetActive(false);
             SoundOff.SetActive(true);
+            global::SaveRanking.SaveGame();
         }
         else
         {
@@ -61,6 +62,7 @@ public class OptionsCS : MonoBehaviour {
             global::SaveRanking.SomOn = 0;
             SoundOn.SetActive(true);
             SoundOff.SetActive(false);
+            global::SaveRanking.SaveGame();
         }
     }
 
