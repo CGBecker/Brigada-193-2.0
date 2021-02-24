@@ -11,7 +11,23 @@ public class LevelsGo : MonoBehaviour {
     public GameObject hitByRay3;
     public GameObject hitByRay4;
     public GameObject hitByRay5;
+    public GameObject Ashes;
+    public GameObject Leafs;
 
+
+    public void Awake()
+    {
+        if (global::SaveRanking.LevelProgress == 15)
+        {
+            Leafs.SetActive(true);
+            Ashes.SetActive(false);
+        }
+        else 
+        {
+            Leafs.SetActive(false);
+            Ashes.SetActive(true);
+        }
+    }
     void Start () {
 
         if (global::SaveRanking.LevelProgress == 0)

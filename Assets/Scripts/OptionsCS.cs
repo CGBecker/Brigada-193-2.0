@@ -8,6 +8,9 @@ public class OptionsCS : MonoBehaviour {
 	public GameObject SoundOn;
 	public GameObject SoundOff;
     public GameObject StartObj;
+
+    public GameObject Ashes;
+    public GameObject Leafs;
     
 
 	public bool isOn;
@@ -22,6 +25,20 @@ public class OptionsCS : MonoBehaviour {
     private bool IsOn = false;
     private float timer;
 
+
+    public void Awake()
+    {
+        
+        if (global::SaveRanking.LevelProgress == 15)
+        {
+            Ashes.SetActive(false);
+            Leafs.SetActive(true);
+        }
+        else {
+            Leafs.SetActive(false);
+            Ashes.SetActive(true);
+        }
+    }
 
     public void Options(){
 
