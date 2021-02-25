@@ -38,6 +38,18 @@ public class OptionsCS : MonoBehaviour {
             Leafs.SetActive(false);
             Ashes.SetActive(true);
         }
+
+        if (global::SaveRanking.SomOn == 1)
+        {             
+            SoundOn.SetActive(false);
+            SoundOff.SetActive(true);            
+        }
+        else
+        {
+            
+            SoundOn.SetActive(true);
+            SoundOff.SetActive(false);
+        }
     }
 
     public void Options(){
