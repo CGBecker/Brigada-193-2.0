@@ -3,29 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c098a241-5413-49e6-b809-bccbe13945d8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/Fase1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/Fase1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/Fase10.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/Fase10.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/Fase11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/Fase11.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/Fase12.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/Fase12.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/Fase13.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/Fase13.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/Fase14.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/Fase14.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/Fase15.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/Fase15.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/Fase2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/Fase2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/Fase3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/Fase3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/Fase4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/Fase4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/Fase5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/Fase5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/Fase6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/Fase6.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/Fase7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/Fase7.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/Fase8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/Fase8.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/Fase9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/Fase9.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/Levels.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/Levels.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/LogoScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/LogoScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cenas/Menu_Profiles/Main Camera Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cenas/Menu_Profiles/Main Camera Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OptionsCS.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OptionsCS.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Menu/CREDITOS.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Menu/CREDITOS.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Google Docs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Para Bianchs.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,47 +17,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1oyTtGqXXzwlAJ6HKkfl9t2LJU6" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Brigada 193 1.1a" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Brigada 193 1.1a" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$USER_HOME$/Downloads/1.apk" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Brigada193v2.01a.apk" />
+    <property name="settings.editor.selected.configurable" value="instant.run" />
   </component>
   <component name="RunManager">
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
@@ -131,17 +82,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1614258260381" />
-    <state x="168" y="120" width="1200" height="584" key="AVDManager" timestamp="1614258936145">
+    <state x="168" y="120" width="1200" height="584" key="AVDManager" timestamp="1614273658182">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="168" y="120" width="1200" height="584" key="AVDManager/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1614258936145" />
+    <state x="168" y="120" width="1200" height="584" key="AVDManager/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1614273658182" />
     <state x="586" y="159" key="AndroidProcessChooserDialog" timestamp="1614258256913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="586" y="159" key="AndroidProcessChooserDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1614258256913" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1614258935806">
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1614274265452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1614258935806" />
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1614274265452" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1614273636240">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1614273636240" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1614273543804">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1614273543804" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1614273641208">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1614273641208" />
   </component>
 </project>
