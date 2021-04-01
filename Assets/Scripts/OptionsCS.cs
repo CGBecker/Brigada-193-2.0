@@ -11,6 +11,9 @@ public class OptionsCS : MonoBehaviour {
 
     public GameObject Ashes;
     public GameObject Leafs;
+
+    public ParticleSystem LeafBurst;
+    public ParticleSystem GreenBurst;
     
 
 	public bool isOn;
@@ -61,14 +64,19 @@ public class OptionsCS : MonoBehaviour {
             OptionsPanel.SetActive(true);
             StartObj.layer = 2;
             IsOn = true;
-           
-        }else
+
+            if (global::SaveRanking.LevelProgress == 15) { GreenBurst.Play(); } else { LeafBurst.Play(); }
+
+        }
+        else
         {
             if (IsOn == true)
             {
                 OptionsPanel.SetActive(false);
                 StartObj.layer = 0;
                 IsOn = false;
+
+                if (global::SaveRanking.LevelProgress == 15) { GreenBurst.Play(); } else { LeafBurst.Play(); }
             }
         }
 
