@@ -63,9 +63,7 @@ public class OptionsCS : MonoBehaviour {
         {
             OptionsPanel.SetActive(true);
             StartObj.layer = 2;
-            IsOn = true;
-
-            if (global::SaveRanking.LevelProgress == 15) { GreenBurst.Play(); } else { LeafBurst.Play(); }
+            IsOn = true;           
 
         }
         else
@@ -75,8 +73,7 @@ public class OptionsCS : MonoBehaviour {
                 OptionsPanel.SetActive(false);
                 StartObj.layer = 0;
                 IsOn = false;
-
-                if (global::SaveRanking.LevelProgress == 15) { GreenBurst.Play(); } else { LeafBurst.Play(); }
+                
             }
         }
 
@@ -125,6 +122,31 @@ public class OptionsCS : MonoBehaviour {
             {
                 Credits.SetActive(true);
             }
+        }
+    }
+
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            
+            Ray ray = UnityEngine.Camera.main.ScreenPointToRay(Input.mousePosition);
+
+            GreenBurst.transform.position = new Vector3(ray.GetPoint(10).x, ray.GetPoint(10).y, ray.GetPoint(10).z);
+            LeafBurst.transform.position = new Vector3(ray.GetPoint(10).x, ray.GetPoint(10).y, ray.GetPoint(10).z);
+
+            
+            
+
+            if (global::SaveRanking.LevelProgress == 15) { 
+                Instantiate(GreenBurst, new Vector3(ray.GetPoint(10).x, ray.GetPoint(10).y, ray.GetPoint(10).z), Quaternion.identity).Play(); 
+            } else { 
+                Instantiate(LeafBurst, new Vector3(ray.GetPoint(10).x, ray.GetPoint(10).y, ray.GetPoint(10).z), Quaternion.identity).Play(); 
+            }
+
+            //if (global::SaveRanking.LevelProgress == 15) { GreenBurst.Play(); } else { LeafBurst.Play(); }
+
+
         }
     }
 
